@@ -2,6 +2,7 @@
 
 * Recap program.cs and startup.cs
 * Do a dotnet restore and run
+
 ---
 Add dotnet watch `mimToolsWatch`
 ```
@@ -11,9 +12,11 @@ Add dotnet watch `mimToolsWatch`
     }
 ```
 Do a dotnet restore
+
 ---
 * run `dotnet watch`
 * Edit Startup.cs, show commandline and result in browser
+
 ---
 * duplicate Hello World in Startup.cs
 * (optional) Ask: what can we expect
@@ -32,10 +35,12 @@ app.Use((context, next) => {
 });
 ```
 * Show the result in the browser
+
 ---
 ### if middleware
 * Add new middleware `mimMiddlewareBase` (optional ->) with an `if(context.Request.Path == "/mim")`
 * Show the result in browser for `localhost:5000` and `localhost:5000/mim`
+
 ---
 ### Way back
 * Add context writes after the `await next()`
@@ -53,6 +58,7 @@ Now we want to do something usefull, like serving files
 * because of the app runs in the bin folder
 * Add `UseContentRoot(Directory.GetCurrentDirectory())` to Program.cs
 * Refresh browser, TADAAA!
+
 ---
 ### Optional StatusCodePages
 * Remove all context-writes
@@ -63,5 +69,6 @@ Now we want to do something usefull, like serving files
 * Show result
 * (optional) Change statusCode pages in `app.UseStatusCodePagesWithReExecute("/{0}.html");`
 * Show result
+
 ---
 End of demo
