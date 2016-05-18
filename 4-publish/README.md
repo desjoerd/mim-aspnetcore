@@ -2,11 +2,11 @@
 
 * open Pipeline demo
 
-* Add:
+* Add to project.json:
 ```
-"Microsoft.AspNetCore.Server.IISIntegration": "1.0.0-rc2-*",
-```
-```
+"dependencies": {
+	"Microsoft.AspNetCore.Server.IISIntegration": "1.0.0-rc2-*"
+}
 "tools": {
 	"Microsoft.AspNetCore.Server.IISIntegration.Tools": {
 	    "version": "1.0.0-*",
@@ -18,4 +18,7 @@
 }
 ```
 
-Configure IIS
+* run `dotnet publish`
+* Install AspNetCoreModule https://docs.asp.net/en/latest/publishing/iis.html#install-the-net-core-windows-server-hosting-bundle
+* Point a IIS virtual directory to the published output.
+* You can configure IIS Apppool without .NET.
