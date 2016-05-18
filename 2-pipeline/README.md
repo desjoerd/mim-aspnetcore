@@ -1,5 +1,7 @@
 # Middleware Pipeline
 
+### Continue on dotnet-new demo
+
 * Recap program.cs and startup.cs
 * Do a dotnet restore and run
 

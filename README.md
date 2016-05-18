@@ -1,2 +1,2 @@
-# mim-aspnetcore
-Sources and walkthroughs for the demo's given for MiM
+# session-aspnetcore
+Sources and walkthroughs of the demos for the aspnetcore session
