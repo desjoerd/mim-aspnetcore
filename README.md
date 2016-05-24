@@ -9,7 +9,7 @@ The demos are tested with DotNetCore SDK RC2-final and Tools preview1.
 Albert Sluijter & Sjoerd van der Meer
 
 ## Slides
-The slides are on [Slideshare.net/desjoerd](https://www.slideshare.net/desjoerd/mim-aspnet-core)
+[slideshare.net/desjoerd/mim-aspnet-core](https://www.slideshare.net/desjoerd/mim-aspnet-core)
 
 ## Questions?
 Create an issue on this repository or use the contact information provided in the slides :).
